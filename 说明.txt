@@ -1,0 +1,19 @@
+本软件作者alexar
+alexar@foxmail.com
+无偿使用，遵守cc-by协议。
+
+使用方法
+下载本软件并解压
+修改bat文件，
+第一个参数为当前compile.lua路径
+第二个参数为目标文件夹
+双击bat文件即可在目标文件夹上一级目录创建项目名_compile文件夹
+内容包括
+1、编译为字节码的项目文件
+2、love文件
+3、exe文件
+注意：
+需要安装Lua，love,winrar
+如果手动安装，请自行修改在compile.lua头两行为安装位置
+local RARPATH=[["C:\Program Files\WinRAR\WinRAR.exe"]]
+local LOVEPATH=[["C:\Program Files\LOVE\love.exe"]]
